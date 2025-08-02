@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a simple HTML5 page created for an assignment focusing on semantic structure, accessibility, and SEO.">
+    <title>My First Semantic Web Page</title>
+    
+</head>
+<body>
+    
+    <header>
+        <h1 id="main-heading">A Guide to Semantic HTML5</h1>
+        
+        <nav aria-label="Main navigation">
+            
+            <ul>
+                <li><a href="#main-content">Home</a></li>
+                <li><a href="#blog-section">Blog</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section id="blog-section">
+            
+            <h2>Understanding Semantic Tags</h2>
+            
+            <p>
+                Semantic HTML tags provide meaning to the content, rather than just presentation.
+                This helps browsers, screen readers, and search engines better understand the
+                structure of a web page.
+            </p>
+            
+            <article>
+                
+                <h3>What is a &lt;header&gt; element?</h3>
+                
+                <p>
+                    The &lt;header&gt; element is used to introduce content. It's often found at the
+                    top of a page or inside other semantic elements like &lt;article&gt; or &lt;section&gt;.
+                </p>
+            </article>
+            
+            <article>
+                <h3>Why use a &lt;nav&gt; element?</h3>
+                <p>
+                    The &lt;nav&gt; element is for major navigation blocks. Using it helps screen
+                    reader users quickly find and navigate the main links on your site.
+                </p>
+            </article>
+        </section>
+        
+        <aside aria-labelledby="sidebar-heading">
+            
+            <h3 id="sidebar-heading">Related Topics</h3>
+            <p>
+                This section contains additional resources and links that are related to the
+                main content but are not part of the primary flow of the document.
+            </p>
+            <ul>
+                <li><a href="#">The Importance of SEO</a></li>
+                <li><a href="#">Web Accessibility Guidelines</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 HTML Assignment. All rights reserved.</p>
+        <p><small>Created by Sinovuyo Volo student of PLP Academy.</small></p>
+    </footer>
+
+</body>
+</html>
